@@ -1,0 +1,16 @@
+main{
+    width: 50%;
+    margin: 0 auto;
+}
+.lasagna-image{
+    width:60%;
+}
+.extra{
+    display: flex;
+    justify-content: space-between;
+}
+aside{
+    width: 35%;
+    border: 1px solid rgb(182, 182, 182);
+    align-self: right;
+}
