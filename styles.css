@@ -1,6 +1,21 @@
+html{
+    font-family: 'Source Serif Pro', serif;
+}
 main{
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
+}
+aside{
+    width: 25%;
+    border: 1px solid rgb(235, 205, 106);
+    align-self: right;
+    border-radius: 5px;
+}
+h2{
+font-size:160%;
+margin-bottom: 3%;
+color:rgb(235, 205, 106);
+
 }
 .lasagna-image{
     width:70%;
@@ -9,9 +24,55 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin-bottom: 5%;
 }
-aside{
-    width: 25%;
-    border: 1px solid rgb(182, 182, 182);
-    align-self: right;
+.bold{
+    font-weight: bold;
+}
+.lasagna-image{
+    border-radius: 5px;
+}
+.ingridients{
+    margin-bottom: 5%;
+}
+h1.main-header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 300%;
+    text-align: left;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    text-decoration-color:rgb(235, 205, 106);
+}
+h1.main-header:hover{
+    text-decoration:none;
+    color: rgb(235, 205, 106);
+}
+main>div>p{
+    font-size: 160%;
+    margin-bottom: 3%;
+    line-height:1.3;
+}
+aside>div{
+    margin: 5% 5%;
+}
+aside>div>p{
+    margin-bottom: 5%;
+}
+aside>div>p:last-child{
+    margin-bottom: 0;
+}
+div.ingridients>p{
+    margin-bottom: 2%;
+}
+div.ingridients>p:last-child{
+    margin-bottom: 3%;
+}
+div.directions>div{
+    margin-bottom: 3%;
+}
+div.directions>div>p{
+    margin-bottom: 1%;
+}
+div.directions>div>p:last-child{
+    line-height:1.3 ;
 }

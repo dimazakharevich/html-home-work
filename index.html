@@ -5,14 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lasagna Recipe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Source+Serif+Pro:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <p><a href="">THE RECIPE</a></p>
+      <p><a href="">About</a></p>
+      <p><a href="">Reach Out</a></p>
+    </header>
     <main>
       <div>
-        <h1>The best lasagna in your life</h1>
+        <h1 class="main-header">The best lasagna in your life</h1>
         <p>
           Roasted vegetables and polenta layer together with Italian-seasoned
           Veggie Ground Round and cheese in a not-so-traditional vegetarian
@@ -26,16 +36,18 @@
           alt="Lasagna Image"
         />
         <aside>
-          <p>Prep: 20 mins</p>
-          <p>Cook: 40 mins</p>
-          <p>Additional: 10 mins</p>
-          <p>Total: 1 hr 10 mins</p>
-          <p>Servings: 10</p>
-          <p>Yield: 10 to 12 servings</p>
+          <div>
+            <p><span class="bold">Prep:</span> 20 mins</p>
+            <p><span class="bold">Cook:</span> 40 mins</p>
+            <p><span class="bold">Additional:</span> 10 mins</p>
+            <p><span class="bold">Total:</span> 1 hr 10 mins</p>
+            <p><span class="bold">Servings:</span> 10</p>
+          </div>
         </aside>
       </div>
       <div class="recipe">
         <div class="ingridients">
+          <h2>Ingridients</h2>
           <p>
             1 (400 g) package Europe's Best® Roasted Gourmet Tuscan Inspired
             Blend
@@ -54,17 +66,18 @@
           </p>
           <p>2 cups shredded mozzarella cheese</p>
         </div>
-        <div class="recipe-steps">
+        <div class="directions">
+          <h2>Directions</h2>
           <div>
-            <p>Step 1</p>
+            <p class="bold">Step 1</p>
             <p>Preheat oven to 375 degrees F (190 degrees C).</p>
           </div>
           <div>
-            <p>Step 2</p>
+            <p class="bold">Step 2</p>
             <p>Thaw vegetables and chop into small pieces. Set aside.</p>
           </div>
           <div>
-            <p>Step 3</p>
+            <p class="bold">Step 3</p>
             <p>
               In a large bowl, mix together egg, ricotta, 1/2 cup (125 mL) of
               the Parmesan cheese and basil. Season with salt and pepper. Set
@@ -72,11 +85,11 @@
             </p>
           </div>
           <div>
-            <p>Step 4</p>
+            <p class="bold">Step 4</p>
             <p>Cut polenta into 1/4-inch (0.5 cm) slices. Set aside.</p>
           </div>
           <div>
-            <p>Step 5</p>
+            <p class="bold">Step 5</p>
             <p>
               Lightly grease 13 x 9-inch (33 x 23 cm) baking pan with oil.
               Spread 1-1/2 cups (375 mL) of the pasta sauce onto the bottom.
@@ -85,14 +98,14 @@
             </p>
           </div>
           <div>
-            <p>Step 6</p>
+            <p class="bold">Step 6</p>
             <p>
               In a large bowl, mix together remaining sauce and veggie ground
               round. Spread half of the veggie sauce over vegetables.
             </p>
           </div>
           <div>
-            <p>Step 7</p>
+            <p class="bold">Step 7</p>
             <p>
               Spread ricotta mixture carefully over vegetables. Sprinkle with 1
               cup (250 mL) of the mozzarella. Add another layer of polenta (you
@@ -100,7 +113,7 @@
             </p>
           </div>
           <div>
-            <p>Step 8</p>
+            <p class="bold">Step 8</p>
             <p>
               Add remaining roasted vegetables, then remaining pasta sauce. Top
               with remaining 1/4 cup (50 mL) Parmesan and remaining 1 cup (25
@@ -108,7 +121,7 @@
             </p>
           </div>
           <div>
-            <p>Step 9</p>
+            <p class="bold">Step 9</p>
             <p>
               Bake in the preheated oven for 20 minutes; remove foil and bake 20
               minutes longer or until bubbly. Let stand for 10 minutes before
