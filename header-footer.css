@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-bottom: 3%;
+  border-bottom: 3px solid black;
+}
+nav a {
+  text-decoration: none;
+  color: var(--theme-color);
+  font-size: 200%;
+}
+nav a:hover {
+  color: white;
+  background-color: var(--theme-color);
+  transition: background-color 100ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
