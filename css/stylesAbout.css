@@ -7,3 +7,6 @@
   font-size: 20px;
   line-height: 1.3;
 }
+.yellow {
+  color: var(--theme-color);
+}

@@ -10,9 +10,18 @@ body {
   padding: 3% 0;
 }
 
-html {
-  font-family: "Source Serif Pro", serif;
+aside {
+  width: 25%;
+  border: 1px solid var(--theme-color);
+  align-self: right;
+  border-radius: 5px;
 }
+h2 {
+  font-size: 160%;
+  margin-bottom: 3%;
+  color: var(--theme-color);
+}
+
 nav {
   display: flex;
   width: 60%;
@@ -54,22 +63,6 @@ main > div > p {
   line-height: 1.3;
 }
 
-body {
-  background-color: var(--body-color);
-  padding: 3% 0;
-}
-
-aside {
-  width: 25%;
-  border: 1px solid var(--theme-color);
-  align-self: right;
-  border-radius: 5px;
-}
-h2 {
-  font-size: 160%;
-  margin-bottom: 3%;
-  color: var(--theme-color);
-}
 .main-image {
   width: 70%;
   border-radius: 5px;
