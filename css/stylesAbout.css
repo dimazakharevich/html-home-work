@@ -1,0 +1,9 @@
+.center-image {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+.biography {
+  font-size: 20px;
+  line-height: 1.3;
+}
