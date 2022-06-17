@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/stylesContact.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="about.html">About</a>
+        <a href="index.html">THE RECIPE</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <h1 class="main-header">Plese, let us know if you like lasagna</h1>
+        <p>In order to share your feedback, please, fill out the form below.</p>
+      </div>
+      <div class="main-contant">
+        <form action="" method="get">
+          <div class="display-flex">
+            <div>
+              <label for="name">Full Name</label>
+              <input id="name" name="name" type="text" required />
+            </div>
+            <div>
+              <label for="email">Email Address</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+          </div>
+
+          <div>
+            <label for="feedback">Message</label>
+            <textarea required
+              name="feedback"
+              id="feedback"
+              cols="30"
+              rows="6"
+            ></textarea>
+            <div class="agree">
+              <input name="agree" id="agree" type="checkbox" required />
+              <label for="agree"
+                >I have read and agree to
+                <span "><a class="terms href="#">the terms of service</a></span>
+              </label>
+            </div>
+          </div>
+          <button type="submit">Send Feedback</button>
+        </form>
+        <img
+          class="img-main"
+          src="Assets-folder/lasagna-img2.jpeg"
+          alt="Lasagna image"
+        />
+      </div>
+    </main>
+  </body>
+</html>
